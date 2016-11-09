@@ -1,0 +1,37 @@
+INSERT INTO CUSTOMER(SURNAME,GIVEN_NAME,BIRTHDATE) VALUES
+  ('Sullivan','Clarence',DATE '1991-04-05'),
+  ('Hamilton','Maria',DATE '1992-09-21'),
+  ('Bryant','Christopher',DATE '1996-06-08'),
+  ('Snyder','Maria',DATE '1993-04-03'),
+  ('Butler','Melissa',DATE '1996-04-15'),
+  ('Sanchez','Edward',DATE '1995-04-21'),
+  ('Ellis','Fred',DATE '2010-10-20'),
+  ('Diaz','Roger',DATE '2000-11-10'),
+  ('Hansen','Joan',DATE '1993-11-10'),
+  ('Meyer','Ronald',DATE '2000-07-27');
+INSERT INTO EMPLOYEE(SURNAME,GIVEN_NAME,BIRTHDATE,HIRE_DATE) VALUES
+  ('Simpson','Dorothy',DATE '1995-10-01',DATE '2005-08-12'),
+  ('Kennedy','Virginia',DATE '1992-08-13',DATE '2010-10-21'),
+  ('Johnston','Ashley',DATE '1995-09-12',DATE '2012-08-14'),
+  ('Reyes','Tina',DATE '1991-06-22',DATE '2008-11-08');
+INSERT INTO DATACMNS_ORDER(CUSTOMER_ID,EMPLOYEE_ID,ORDERED_DATE) VALUES
+  (1,1,DATE '2016-03-03'),
+  (2,2,DATE '2016-07-13'),
+  (3,3,DATE '2016-10-17'),
+  (4,4,DATE '2016-06-24'),
+  (5,1,DATE '2015-12-22'),
+  (6,2,DATE '2016-03-03'),
+  (7,3,DATE '2016-10-23'),
+  (8,4,DATE '2016-08-30'),
+  (9,1,DATE '2016-05-17'),
+  (10,2,DATE '2016-07-15'),
+  (1,3,DATE '2016-09-27'),
+  (2,4,DATE '2015-11-19'),
+  (3,1,DATE '2016-10-07'),
+  (4,2,DATE '2015-12-14'),
+  (5,3,DATE '2016-05-27'),
+  (6,4,DATE '2016-02-25'),
+  (7,1,DATE '2016-05-22'),
+  (8,2,DATE '2016-05-02'),
+  (9,3,DATE '2016-10-21'),
+  (10,4,DATE '2016-09-27');

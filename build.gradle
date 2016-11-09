@@ -29,6 +29,10 @@ repositories {
 dependencies {
 	compile('org.springframework.boot:spring-boot-starter-data-jpa')
 	compile('org.springframework.boot:spring-boot-starter-data-rest')
+	compile('com.querydsl:querydsl-jpa')
+	compile('com.querydsl:querydsl-apt::jpa')
+	compile('org.projectlombok:lombok')
+	compile('com.fasterxml.jackson.datatype:jackson-datatype-jsr310')
 	runtime('org.hsqldb:hsqldb')
 	testCompile('org.springframework.boot:spring-boot-starter-test')
 }
